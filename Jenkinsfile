@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        jiraComment(issueKey: 'ass', body: 'ddddd')
+        jiraSearch 'cccc'
       }
     }
   }
